@@ -18,3 +18,7 @@ b is the bias.
 4) at lr = 0.1 the model diverges
 5) Number of epoches used is 20
 
+# Future Improvements
+1) Adding feature normalization
+2) Visualize loss curve
+3) Implement without Numpy
