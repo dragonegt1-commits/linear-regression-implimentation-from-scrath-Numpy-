@@ -1,14 +1,20 @@
 # linear-regression-implimentation-from-scrath-Numpy-
-This project is build to make a linear regression model from sracth with the help of numpy and with the use of matrix multiplication, matrix transpose and matrix addition. This project is build to pridict the outcome with the given input and the linear relation between the input and the output.
+# What this project is about 
+This project impliment linear regression from scracth using numpy to understand gradient descent optimization and parameter learning without high-level ML libraries.
 
-Concepts implimented:
-Linear model: y_prediction = XW + b
-Mean Squared Error
-Gradient Descent
-Learning rate experimentation
+# Maths used
+1)Model equation: y_prediction = XW + b
+where X is the input feature.
+W is the weight.
+b is the bias.
 
-What I learned:
-Why adding a bias in the model is important 
-WHy gradient matter
-Why learning rate affects stability
-What happens with small vs large gradient 
+2) Loss fuction: MSE = (1/n)sum(y-y_prediction)**2
+3) Gradient: dW = (2/n)*X.T@(y_prediction-y)**2 and db= (2/n)sum(y_prediction - y)
+
+#Details 
+1) Shape of X = (3,2)
+2) Shape of W = (2,1)
+3) lr used is 0.01
+4) at lr = 0.1 the model diverges
+5) Number of epoches used is 20
+
