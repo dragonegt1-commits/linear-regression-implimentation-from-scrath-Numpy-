@@ -11,7 +11,7 @@ b is the bias.
 2) Loss fuction: MSE = (1/n)sum(y-y_prediction)**2
 3) Gradient: dW = (2/n)*X.T@(y_prediction-y)**2 and db= (2/n)sum(y_prediction - y)
 
-#Details 
+# Details 
 1) Shape of X = (3,2)
 2) Shape of W = (2,1)
 3) lr used is 0.01
